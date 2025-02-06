@@ -49,3 +49,10 @@
   <script src="script.js"></script>
 </body>
 </html>
+// Script básico para interações, se necessário
+
+document.querySelectorAll('button').forEach((btn) => {
+  btn.addEventListener('click', () => {
+    alert('Produto adicionado ao carrinho!');
+  });
+});
